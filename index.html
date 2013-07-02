@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet">  
+    <link rel="stylesheet" type="text/css" href="calendar.css" />
+  </head>
+  
+  <body>
+      <div id="navControlDiv"></div>
+      <div id="calendarBodyDiv"></div>
+      <div id="eventDisplayDiv"></div>
+      
+      <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="gCal.js"></script>
+      <script type="text/javascript">
+        getCal({
+            "calID":"0a9obnn6f18bjh1aneqs1if6jk@group.calendar.google.com",
+            "navID":"navControlDiv",
+            "bodyID":"calendarBodyDiv",
+            "eventID":"eventDisplayDiv",
+            "statusID":"",
+            "loginID":"",
+            "viewControlID":"",
+            "view":"week"
+        })
+      </script>
+  </body>
+</html>

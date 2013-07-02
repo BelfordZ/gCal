@@ -1,0 +1,46 @@
+/* optional styling */
+#loginControlDiv {
+}
+
+#navControlDiv {	
+}
+
+#navControlDiv input {	
+}
+
+#navControlDiv select {	
+}
+
+#viewControlDiv input {
+}
+
+#eventDisplayDiv {
+    //text-align: center;
+}
+
+#statusControlDiv {
+}
+
+/* required styling */
+
+.columnHeading {
+    text-align: center;
+}
+
+.weekViewCell {
+	width: 105px;
+	min-width: 105px;
+	text-align: left;
+}
+
+.contentCell {
+	padding: 0px;
+}
+
+.eventMouseOver {
+	color: blue;	
+	background: #ddd;
+}
+
+.eventMouseOut {
+}

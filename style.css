@@ -1,0 +1,130 @@
+h2 {
+    font-size: 18pt;
+}
+
+.justify {
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+.textWrap {
+    align: left;
+}
+
+.page-header h1, .page-header h1 small {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+
+.page-header h1 small {
+    color: #999;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* HOMEPAGE STYLING */
+.hero-background {
+    background: url("../img/banner.jpg") no-repeat 50% 55% #000;
+}
+
+.faded-home {
+    background-color: rgba(0,0,0,0.3);
+    padding: 100px;
+}
+
+.faded {
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px;
+}
+
+.faded h1 {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-unit h1, .hero-unit h3 { text-shadow:  0px 0px 10px #000; }
+
+article h1, article h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+article p {
+    font-size: 12pt;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/* END HOMEPAGE */
+
+
+/* NAVBAR */
+
+nav.navbar-static-top {
+    //margin-bottom: 20px;
+}
+
+.navbar-inner .container {
+    text-align: center;
+}
+
+/* END NAVBAR */
+
+
+/* HERO UNIT STYLING FOR FRONTPAGE */
+
+.hero-unit {
+    text-align: center;
+    color: #eee;
+}
+
+.hero-unit h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52pt;
+}
+
+.hero-unit h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 22pt;
+    font-weight: 100;
+    text-align: center;
+    height: 38pt;
+}
+
+.hero-unit h3:before,
+.hero-unit h3:after {
+    background-color: #ddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+    margin-top: -10px;
+}
+
+.hero-unit h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.hero-unit h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/* END HERO UNIT */
+
+/* CLASS/PROGRAM LIST */
+.classList {
+    top: 40px;
+    padding-top:154px;
+}
+
+
+/* END OF CLASS/PROGRAM LIST */
+
